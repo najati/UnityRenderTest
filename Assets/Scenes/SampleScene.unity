@@ -225,6 +225,7 @@ GameObject:
   - component: {fileID: 991781966}
   - component: {fileID: 991781965}
   - component: {fileID: 991781964}
+  - component: {fileID: 991781968}
   m_Layer: 0
   m_Name: Left
   m_TagString: Untagged
@@ -306,6 +307,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 80.616005, y: -2.868, z: -1.4510001}
+--- !u!114 &991781968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991781963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d20f4aaa9bda3f4c9c0f4a66b037f2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: {r: 0, g: 0.19104338, b: 1, a: 0}
+  holeRadius: 0.2
 --- !u!1 &1687258581
 GameObject:
   m_ObjectHideFlags: 0
@@ -401,6 +416,7 @@ GameObject:
   - component: {fileID: 1988868322}
   - component: {fileID: 1988868321}
   - component: {fileID: 1988868320}
+  - component: {fileID: 1988868324}
   m_Layer: 0
   m_Name: Right
   m_TagString: Untagged
@@ -482,6 +498,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 80.616005, y: 2.868, z: -1.4510001}
+--- !u!114 &1988868324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988868319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d20f4aaa9bda3f4c9c0f4a66b037f2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: {r: 1, g: 0, b: 0, a: 0}
+  holeRadius: 0.1
 --- !u!1 &2138677391
 GameObject:
   m_ObjectHideFlags: 0
